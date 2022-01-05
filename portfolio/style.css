@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+.sidebar{
+    font-size: large;
+background-color: #97c450;
+width: 20vw;
+border: ridge;
+}
+.hello{
+    font-size: xx-large;
+  font-family: 'Pushster', cursive;
+}
+.aboutme{
+    font-family: 'Pushster', cursive;
+}
+.button{
+   box-shadow: turquoise;
+    text-align: center;
+   
+}
+.resume{
+    color: red;
+    border-radius: 22px;
+    color: blue;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.resume:hover{
+    background-color: chartreuse;
+    color: crimson;
+}
+.contact-form{
+    border-radius: 55px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.html{
+    text-align: center;
+    padding: 50px;
+    color: rgb(8, 71, 8);
+    background-color: rgb(111, 143, 158);
+    width: 200px;
+    margin-left: 600px;
+    cursor: -webkit-grab;
+    border-radius: 900px;
+}
+.java{
+    text-align: center;
+    padding: 50px;
+    color: rgb(8, 71, 8);
+    background-color: rgb(111, 143, 158);
+    width: 300px;
+    margin-left: 600px;
+    cursor: -webkit-grab;
+    border-radius: 900px;
+}
+.css{
+    text-align: center;
+    padding: 50px;
+    color: rgb(8, 71, 8);
+    background-color: rgb(111, 143, 158);
+    width: 200px;
+    margin-left: 600px;
+    cursor: -webkit-grab;
+    border-radius: 900px;
+}
+.c{
+    text-align: center;
+    padding: 50px;
+    color: rgb(8, 71, 8);
+    background-color: rgb(111, 143, 158);
+    width: 300px;
+    margin-left: 600px;
+    cursor: -webkit-grab;
+    border-radius: 900px;
+}
+.html:hover{
+    background-color: darkgray;
+    color: black;
+}
+.css:hover{
+    background-color: darkgray;
+    color: black;
+}.c:hover{
+    background-color: darkgray;
+    color: black;
+}.java:hover{
+    background-color: darkgray;
+    color: black;
+}
+.codeslist{
+    font-family: fantasy;
+    border-style: dotted;
+}
+.card{
+    width:250px;
+    height: 250px;
+    position: absolute;
+    line-height: 50px;
+    margin-top: 100px;
+    margin-left: 900px;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0, 0,0.1);
+    animation-name: sample;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample {
+    from{border-radius: 0%;
+    color: black;
+    font-size: 10px;
+    background-color:  #08f4d5}
+    to{border-radius: 100%;
+    color: grey;
+    font-size: 50px;
+    background-color: lightseagreen;
+    margin-top: 400px;}
+}
+.que{
+    position: absolute;
+  margin-left: 700px;
+  margin-top:100px;
+  animation-name: que;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+@keyframes que {
+    from{font-size: 50px;}
+    to{font-size: 100px;}
+}
+.que4{
+    position: absolute;
+  margin-left: 700px;
+  margin-top:500px;
+  animation-name: que4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+ 
+}
+@keyframes que4 {
+    from{font-size: 50px;}
+    to{font-size: 100px;}
+}
+.que3{
+    position: absolute;
+  margin-left: 1200px;
+  margin-top:100px;
+  animation-name: que3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes que3 {
+    from{font-size: 50px;}
+    to{font-size: 100px;}
+}
+.que1{
+    position: absolute;
+  margin-left: 1200px;
+  margin-top:500px;
+  animation-name: que1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes que1 {
+    from{font-size: 100px;}
+    to{font-size: 50px;}
+}
+.armpa{
+    position: absolute;
+    background-color:grey;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 800px;
+    size: 200px;}
+    .ex
+    {
+    position: absolute;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 800px;
+    size: 200px;
+    background-color:  grey;
+    animation-name: ex;
+    animation-iteration-count: infinite;
+    animation-duration:3s;
+    animation-direction: alternate;
+}
+@keyframes ex{
+    0%{left: 0px; top: 300px;}
+}
+.ex2
+{
+position: absolute;
+height: 50px;
+margin-left: 900px; border-radius: 10px;
+size: 200px;
+background-color: grey;
+animation-name: exx;
+animation-iteration-count: infinite;
+animation-duration:3s;
+animation-direction: alternate;
+}
+@keyframes exx{
+0%{left: 100px; top: 300px;}
+}
+.arm
+{
+position: absolute;
+height: 50px; border-radius: 10px;
+margin-left: 90800px;
+size: 200px;
+background-color:  grey;
+animation-name: arm;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+@keyframes arm{
+100%{left: -90170px; top: 400px;}
+}
+.narm
+{
+position: absolute; border-radius: 10px;
+height: 50px;
+margin-left: 90800px;
+size: 200px;
+background-color: grey;
+animation-name: narm;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+@keyframes narm{
+100%{left: -89990px; top: 400px;}
+}
+.pal
+{
+position: absolute; border-radius: 10px;
+height: 50px;
+margin-left: 90800px;
+size: 200px;
+background-color:  grey;
+animation-name: pal;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+@keyframes pal{
+100%{left: -89790px; top: 400px;}
+}.npal
+{
+position: absolute;
+height: 50px;
+margin-left: 90800px; border-radius: 10px;
+size: 200px;
+background-color:  grey;
+animation-name: npal;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+@keyframes npal{
+100%{left: -89590px; top: 400px;}
+}
+.ani{
+    position: absolute;
+    margin-left: 712px;
+    margin-top: 967px;
+
+}
+.hh{
+    text-align: center;
+    margin-top: 100px;
+    animation-name: hh;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+@keyframes hh {
+    0%{color: #03446A;
+      font-size: 40px;}
+    20%{color: blueviolet;
+       }
+    40%{color: rgb(0, 157, 230);
+        margin-top: 40px;}
+    60%{color: darkcyan;
+        }
+    80%{color: rgb(110, 41, 99);
+        }
+    100%{color: fuchsia;
+        }
+}
+.ja{
+   position: absolute;
+    margin-left: 400px;
+}
+.ht{
+    position: absolute;
+     margin-left: 400px;
+ }
+ .cs{
+    position: absolute;
+     margin-left: 400px;
+     margin-top: -30px;
+ }
+ .cc{
+    position: absolute;
+     margin-left: 400px;
+     margin-top: -30px;
+ }
+ .hh{
+     font-family: 'Pushster', cursive;
+ }
+ .hh1{
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+ }
+ .home:hover{
+     width: 40px;
+     background-color: grey;
+     color: rgb(253, 250, 250);
+ }
+ .about:hover{
+    width: 50px;
+background-color: grey;
+color: rgb(253, 250, 250);
+}
+ .self:hover{
+    width: 200px;
+background-color: grey;
+color: rgb(253, 250, 250);
+}
+.contact:hover{
+    width: 80px;
+background-color: grey;
+color: rgb(253, 250, 250);
+}
+.download:hover{
+    width: 170px;
+background-color: grey;
+color: rgb(253, 250, 250);
+}

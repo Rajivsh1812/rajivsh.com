@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <canvas width="685" height="753" style="position: absolute; inset: 0px; z-index: -1;"></canvas>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        let a;
+        let date;
+        let time;
+        setInterval(() => {
+        a = new Date();
+         time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+         date = a.toLocaleDateString();
+        document.getElementById('time').innerHTML = date +" and "+ time;
+    }, 1000);
+    </script>
+</head>
+<section id="home">
+<body background="th.jpg">
+        <nav>
+            <ul>
+                <div><li><a style="color: #000;" href="#home" target="_blank"><div class="home">Home</div></a></li><br></div> 
+                <div><li><a style="color: #000;"href="#about"><div class="about">ABOUT</div></a></li><br></div>
+                <div><li><a style="color: #000;" href="#pro"><div class="self">SELF WRITTEN PROGRAM</div></a></li><br></div>
+                <div><li><a style="color: #000;"href="#resumee"><div class="download">DOWNLOAD RESUME</div></a></li><br></div>
+                <div><li><a style="color: #000;"href="#contact"><div class="contact">CONTACTS</div></a></li><br></div>
+            </ul>
+        </nav></section>
+    <img height="300" src="portfolio.jpg" align="right">
+    <h1 style="color: rgb(29, 113, 141);"> MY PORTFOLIO</h1><br>
+    <h2>Hello..! I am<big><b>RAJIV SHARMA</b>... I like to develop web pages.</big></h2>
+    <big><marquee direction="down" width="200" height="150" behavior="alternate">
+    <marquee behavior="alternate" width="200"><h3 style="color: red;"><big style="font-weight: 800;">who i am.?</big><br><br></h3>
+</marquee></marquee></big>
+<section id="about">
+    <h2 class="aboutme">I have keen interest in technology and always ready to learn. My expertise is in
+        developing and creating responsive web pages and solving analytical probelms. I want to work with an
+        organization which provides me opportunity to improve my skills and knowlenge to grow along with the
+        organization and complete our objectives together and also seeking a challenging position so i can utilize my
+        skills for the organisation and individual growth too. </h2>
+    </h2>
+</section>
+<section id="pro">    <h2>TECHNICAL skills</h2>
+    <h2><a style="color: rgb(88, 8, 8);" ; href="skillss.html"> My skills with self written
+            programs.</a><small> <marquee behavior="alternate" width="50">&#128072 </marquee>Check OUT MY WORK NOW..!</small><br>
+        <h4>
+            <ol type="a">
+                <li style="color: rgb(24, 123, 156);">HTML (Beginner)</li>
+                <li style="color: rgb(121, 148, 228);">Java (Beginner)</li>
+                <li style="color:rgb(103, 74, 182);">C (Beginner)</li>
+                <li style="color: rgb(34, 78, 117);">CSS (Beginner)</li>
+            </ol>
+        </h4></section>
+<section id="resumee">
+            <h3><a href="RAJIV_SHARMA[1].docx" download>
+                <p style="color: rgb(158, 27, 67);"><big class="resume">Veiw Resume</big></p>
+            </a></h3></section>
+<section id="contact">
+            <div class="contact-form">
+        <form method="post" action="contatct-formhandler.php">
+            <p style="text-align: center;"><b>connect with me</b><br><br>
+                <label for="name">
+                <input type="text" placeholder="name"class="contact-form" ><br></label>
+                <label for="tel">
+                <input type="tel" placeholder="number"class="contact-form"><br></label>
+                <label for="email">
+                <input type="email" placeholder="email"class="contact-form"><br></label>
+                <label for="message">
+                <input type="text" placeholder="message"class="contact-form"><br></label>
+               <div class="button"> <input type="submit"class="contact-form">
+            </p>
+        </form>
+    </div>
+</section>
+        <h style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><br><br>
+            <p style="text-align: center;"><small>
+                    reach me at <br>
+                    anuragsh1812@gmail.com ,
+                    +91 7834824080<br></small></p>
+            </small>
+            <p style="text-align: center;">
+                <a href="https://www.linkedin.com/mwlite/in/rajiv-sharma-2199371b3"> <img
+                        src="linkdin.png" width=20></a>
+                <a href="https://www.instagram.com/rajivsharma_1_8/          "> <img
+                        src="instagram.jpg" width=20></a>
+                <a href="https://m.facebook.com/100013251334005/"> <img src="facebook.png"
+                        width=20></a><br>
+            </p>
+            <p style="text-align: center;">
+            <p style="color: orangered;text-align: center;">Developed by<br> Rajiv Sharma<br> with HTML,CSS,Php And
+                &#128151.</p>
+            </p>
+            </h5>
+            </div>
+            <div style="text-align:left;"><h6>
+                current date and time  <span id="time"></span>
+             </h6>
+            </div>
+</body>
+
+</html>
